@@ -15,7 +15,9 @@ This project also helps demonstrate the Visual Studio Code -> GitHub syn process
  - data source: election_results.csv
  - Software: Python 3.7.6, Visual Studio Code 1.58.0
  - Screen capture of the terminal: 
-
+---
+ ![image](https://github.com/githubteodora/Election_Analysis/blob/main/Resources/terminal.PNG)
+---
 ## Summary
 1. The analysis of the election shows that there were 369,711 votes cast in the election
 2. There were 3 counties where the election tool place, the vote distribution per county was as follows:
