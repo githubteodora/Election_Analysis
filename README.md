@@ -14,16 +14,22 @@ This project also helps demonstrate the Visual Studio Code -> GitHub syn process
 ## Resources
  - data source: election_results.csv
  - Software: Python 3.7.6, Visual Studio Code 1.58.0
+ - Screen capture of the terminal: 
 
 ## Summary
 1. The analysis of the election shows that there were 369,711 votes cast in the election
-2. The candidates were: 
+2. There were 3 counties where the election tool place, the vote distribution per county was as follows:
+ - Jefferson: 10.5% (38,855)
+ - Denver: 82.8% (306,055) --> largest number of votes
+ - Arapahoe: 6.7% (24,801)
+3. The candidates were: 
  - Charles Casper Stockham: won 23.0% (85,213 votes)
  - Diana DeGette: won 73.8% (272,892 votes)
  - Raymon Anthony Doane: won 3.1% (11,606 votes)
-3. The winner of the election was Diana DeGette
+4. The winner of the election was Diana DeGette
 
 ## Challenge overview
+The challenge was to develop code that counts votes per candidate and county, finds the candidate and county with the biggest number of votes and prints the result into a txt file. 
 
 ## Challenge summary
-
+The developed code can be used for automating analyses of data in spreadsheets with hundreds of thousands of rows. The code heavily relies on clean data in order to produce a reliable output. The code automatically detects unique values in a column (i.e. candidate names, counties), counts occurances per value and produces a result by pulling the aggregared numbers from a python dictionary. The code also provides a way to add a summary analysis into a separate text file. The code can be reused for any analysis that requires repetitive counting of units for any number of distinct elements in an array. With minor adjustments, the code will also be able to sum values, or compare final results per element and classify the elements.
